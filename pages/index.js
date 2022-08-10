@@ -8,7 +8,7 @@ export default function Home() {
   }
 
   if (session.status === 'loading') {
-    return <h2>Please Wait..</h2>;
+    return <h2>Please Wait....</h2>;
   }
 
   return (
