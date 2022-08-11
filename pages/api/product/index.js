@@ -1,5 +1,4 @@
 import nc from 'next-connect';
-import fs from 'fs';
 const handler = nc({ attachParams: true });
 import { getAllProducts } from './productController';
 
